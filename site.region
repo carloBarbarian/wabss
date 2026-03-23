@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{website.pageTitle}</title>
+  </head>
+  <body class="{squarespace.page-classes}" id="{squarespace.page-id}">
+
+    <header id="header">
+      <h1><a href="/">{website.siteTitle}</a></h1>
+      <squarespace:navigation navigationId="mainNav" template="navigation" />
+    </header>
+
+    <main id="canvas">
+      <section id="page" role="main" data-content-field="main-content">
+        {squarespace.main-content}
+      </section>
+      <aside id="sidebar">
+        <squarespace:block-field id="sidebarBlocks" label="Sidebar Content" />
+      </aside>
+    </main>
+
+    <footer id="footer">
+      <squarespace:block-field id="footerBlocks" columns="12" label="Footer Content" />
+    </footer>
+
+    <squarespace:script data-preserve-html-node="true" src="site.js" combo="true" />
+  </body>
+</html>

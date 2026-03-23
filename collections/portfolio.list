@@ -1,0 +1,15 @@
+<section class="portfolio-list" data-collection-id="{collection.id}">
+  <h1 data-content-field="title">{collection.title}</h1>
+  <div class="portfolio-grid">
+    {.repeated section items}
+    <article class="portfolio-item" data-item-id="{id}">
+      <a href="{fullUrl}">
+        {.section assetUrl}
+        <img src="{assetUrl}?format=500w" alt="{title}" />
+        {.end}
+        <h2 data-content-field="title">{title}</h2>
+      </a>
+    </article>
+    {.end}
+  </div>
+</section>

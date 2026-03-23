@@ -1,0 +1,5 @@
+<div class="static-page contact-page">
+  <h1>Contact</h1>
+  <p>Another static page example. Add your contact form HTML or embed code here.</p>
+  <p>Edit <code>pages/contact.page</code> to customize.</p>
+</div>

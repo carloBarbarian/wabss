@@ -1,0 +1,10 @@
+<div class="static-page about-page">
+  <h1>About</h1>
+  <p>This is a static page example. Static pages are defined in the <code>/pages</code> folder and cannot be edited through the Squarespace CMS. Edit the source file <code>pages/about.page</code> to change this content.</p>
+  <p>Static pages are useful for:</p>
+  <ul>
+    <li>Custom HTML structure</li>
+    <li>External service integrations</li>
+    <li>Pages that require features not in the CMS</li>
+  </ul>
+</div>

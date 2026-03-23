@@ -1,0 +1,8 @@
+<main id="canvas" class="layout-sidebar">
+  <section id="page" role="main" data-content-field="main-content">
+    {squarespace.main-content}
+  </section>
+  <aside id="sidebar">
+    <squarespace:block-field id="sidebarBlocks" label="Sidebar Content" />
+  </aside>
+</main>

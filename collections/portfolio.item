@@ -1,0 +1,9 @@
+<article class="portfolio-item-single" data-item-id="{item.id}">
+  {.section item.assetUrl}
+  <figure>
+    <img src="{item.assetUrl}?format=1000w" alt="{item.title}" />
+  </figure>
+  {.end}
+  <h1 data-content-field="title">{item.title}</h1>
+  <div class="portfolio-body" data-content-field="main-content">{item.body|safe}</div>
+</article>

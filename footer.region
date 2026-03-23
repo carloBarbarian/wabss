@@ -1,0 +1,3 @@
+<footer id="footer">
+  <squarespace:block-field id="footerBlocks" columns="12" label="Footer Content" />
+</footer>
