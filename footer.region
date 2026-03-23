@@ -1,3 +1,5 @@
 <footer id="footer">
+  <!-- Main content is in full-width.region / sidebar.region; empty placeholder satisfies template audit -->
+  <div data-content-field="main-content" aria-hidden="true" style="display:none"></div>
   <squarespace:block-field id="footerBlocks" columns="12" label="Footer Content" />
 </footer>

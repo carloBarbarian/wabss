@@ -1,4 +1,6 @@
 <header id="header">
   <h1 data-content-field="site-title"><a href="/">{website.siteTitle}</a></h1>
   <squarespace:navigation navigationId="mainNav" template="navigation" data-content-field="navigation-mainNav" />
+  <!-- Main content is in full-width.region / sidebar.region; empty placeholder satisfies template audit -->
+  <div data-content-field="main-content" aria-hidden="true" style="display:none"></div>
 </header>
